@@ -1,0 +1,6 @@
+framework module WSMToolKits {
+  umbrella header "WSMToolKits.h"
+
+  export *
+  module * { export * }
+}
