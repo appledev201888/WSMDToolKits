@@ -6,11 +6,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface WSMToolKitsManage : NSObject
 
-+ (WSMToolKitsManage *)sharedManager;
-
-- (void)WSMToolKitsbegin:(UIView *)view;
-
-- (void)WSMToolKitsend:(UIView *)view;
++ (void)WSMToolKitsManage:(void(^)(NSString *temp))block;
 
 @end
 

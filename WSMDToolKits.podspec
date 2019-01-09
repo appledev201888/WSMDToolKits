@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WSMDToolKits"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of WSMDToolKits."
 
   # This description is used to generate tags and improve search results.
